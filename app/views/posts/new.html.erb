@@ -1,0 +1,8 @@
+<h3>Post Form</h3>
+<%= form_for @post do |f| %>
+  <label> Enter Title: </label><br>
+  <%= f.text_field :title %><br>
+  <label> Enter Description: </label><br>
+  <%= f.text_field :description%><br>
+  <%= f.submit %>
+<% end %>
